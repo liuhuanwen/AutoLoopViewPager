@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.liuhw.autoloopviewpager.pagerindicator.AutoLoopViewPager
+        android:id="@+id/bannerViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <com.liuhw.autoloopviewpager.pagerindicator.CirclePageIndicator
+        android:id="@+id/circlePagerIndicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bannerViewPager"
+        android:layout_marginBottom="16dp"/>
+</RelativeLayout>
